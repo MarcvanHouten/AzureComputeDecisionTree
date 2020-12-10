@@ -1,3 +1,3 @@
 
 
-![Picture of decision tree](/images/ComputeDecisionTree.png)
+![Picture of decision tree](/images/AzureComputeDecisionTree.png)
