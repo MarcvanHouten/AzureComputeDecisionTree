@@ -21,9 +21,9 @@ CI can also be used for more specific use cases like elastic bursting with AKS [
 ## What about High Performance Computing (HPC)
 
 I left the high performance computing options out because these are mostly used by very specialized applications and required special attention. If you want to know more about the HPC options here are the references to the different options:
-- **Azure HPC (H) series Virtual Machines** [link](https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-hpc): specialized infrastructure with optional high-throughput network interfaces (RDMA) to support almost any type of HPC workload. 
-- **Azure Batch** [link](https://docs.microsoft.com/en-us/azure/batch/batch-technical-overview)is a managed service for running large-scale parallel and high-performance computing applications.
-- **Azure CycleCloud** [link](https://docs.microsoft.com/en-us/azure/cyclecloud/overview?view=cyclecloud-8)is a service for creating, managing, operating, and optimizing HPC & Big Compute clusters in Azure. With Azure CycleCloud, users can dynamically provision HPC capable Virtual Machines with Infiniband interfaces and orchestrate data and jobs for hybrid and cloud workflows.
+- [Azure HPC (H) series Virtual Machines](https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-hpc): specialized infrastructure with optional high-throughput network interfaces (RDMA) to support almost any type of HPC workload. 
+- [Azure Batch](https://docs.microsoft.com/en-us/azure/batch/batch-technical-overview)is a managed service for running large-scale parallel and high-performance computing applications.
+- [Azure CycleCloud](https://docs.microsoft.com/en-us/azure/cyclecloud/overview?view=cyclecloud-8)is a service for creating, managing, operating, and optimizing HPC & Big Compute clusters in Azure. With Azure CycleCloud, users can dynamically provision HPC capable Virtual Machines with Infiniband interfaces and orchestrate data and jobs for hybrid and cloud workflows.
 
 You can find the source of the [decision tree](https://github.com/MarcvanHouten/AzureComputeDecisionTree/blob/main/AzureComputeDecisionTree.drawio) in this repository. I used the free draw.io solution to create the decision tree so anyone can edit it and tailor it to their needs. If you’re looking for Azure icons, these can be downloaded via the [Azure Architecture Center](https://docs.microsoft.com/en-us/azure/architecture/icons/).
 
