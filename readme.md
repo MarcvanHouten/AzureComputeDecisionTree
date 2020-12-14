@@ -13,7 +13,7 @@ Please find the compute decision tree below
 Important to understand is that the questions that influence a decision can be arbitrary or seen as an opinionated view. It’s intended this way. There are always nuances in the choices because most decisions are multi-dimensional and it’s always a challenge to get a multiple dimension into 2-dimensional decision tree. 
 Special note on Azure Functions and Azure Container instances (CI). Both services provide a serverless option to run your code but aren’t commonly used to run an entire application. These services are mostly used as part of larger event-based application architecture in which they’re handling a specific task triggered by an event. CI can also be used for more specific use cases like elastic bursting with AKS [link](https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/scale-using-aks-with-aci) or within the development process where you want quickly test if the container works or in your build process where you need a container to do certain tasks.
 
-## What about High Performance Computing (HPC)?
+## What about High Performance Computing (HPC)
 
 I left the high performance computing options out because these are mostly used by very specialized applications and required special attention. If you want to know more about the HPC options here are the references to the different options:
 •	**Azure HPC (H) series Virtual Machines** [link](https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-hpc): specialized infrastructure with optional high-throughput network interfaces (RDMA) to support almost any type of HPC workload. 
