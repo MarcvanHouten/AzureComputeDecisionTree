@@ -18,7 +18,7 @@ Special note on Azure Functions and Azure Container instances (CI). Both service
 
 CI can also be used for more specific use cases like elastic bursting with AKS [link](https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/scale-using-aks-with-aci) or within the development process where you want quickly test if the container works or in your build process where you need a container to do certain tasks.
 
-## What about High Performance Computing (HPC)
+### What about High Performance Computing (HPC)
 
 I left the high performance computing options out because these are mostly used by very specialized applications and required special attention. If you want to know more about the HPC options here are the references to the different options:
 - [Azure HPC (H) series Virtual Machines](https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-hpc): specialized infrastructure with optional high-throughput network interfaces (RDMA) to support almost any type of HPC workload. 
