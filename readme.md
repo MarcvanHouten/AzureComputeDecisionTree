@@ -20,7 +20,7 @@ CI can also be used for more specific use cases like elastic bursting with AKS [
 
 ### What about High Performance Computing (HPC)
 
-I left the high performance computing options out because these are mostly used by very specialized applications and required special attention. If you want to know more about the HPC options here are the references to the different options:
+I left the high performance computing options out because these are mostly used by very specialized applications and require special attention. If you want to know more about the HPC options here are the references to the different options:
 - [Azure HPC (H) series Virtual Machines](https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-hpc): specialized infrastructure with optional high-throughput network interfaces (RDMA) to support almost any type of HPC workload. 
 - [Azure Batch](https://docs.microsoft.com/en-us/azure/batch/batch-technical-overview)is a managed service for running large-scale parallel and high-performance computing applications.
 - [Azure CycleCloud](https://docs.microsoft.com/en-us/azure/cyclecloud/overview?view=cyclecloud-8)is a service for creating, managing, operating, and optimizing HPC & Big Compute clusters in Azure. With Azure CycleCloud, users can dynamically provision HPC capable Virtual Machines with Infiniband interfaces and orchestrate data and jobs for hybrid and cloud workflows.
