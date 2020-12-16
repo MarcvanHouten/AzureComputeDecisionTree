@@ -12,7 +12,7 @@ Please find the compute decision tree below
 
 ![Picture of decision tree](/images/AzureComputeDecisionTree.png)
 
-Important to understand is that the questions that influence a decision can be arbitrary or seen as an opinionated view. It’s intended this way. There are always nuances in the choices because most decisions are multi-dimensional and it’s always a challenge to get a multiple dimension into 2-dimensional decision tree.
+Important to understand is that the questions that influence a decision are arbitrary and some can be seen as as an opinionated view. It’s intended this way. There are always nuances in the choices because most decisions are multi-dimensional and it’s a challenge to get multiple dimensions into a 2-dimensional decision tree.
 
 Special note on Azure Functions and Azure Container instances (CI). Both services provide a serverless option to run your code but aren’t commonly used to run an entire application. These services are mostly used as part of larger event-based application architecture in which they’re handling a specific task triggered by an event. 
 
